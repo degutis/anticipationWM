@@ -1,0 +1,782 @@
+Cog2000 log file Wed Aug 05 18:21:12 2015
+gprim v1.32 Compiled:Feb  5 2013 (GLib DirectDraw v7 DX10.0 Compiled:Feb  5 2013)
+Display:1024x768x32 60.08Hz
+CogInput v1.05 Compiled: May 20 2010
+0	[0]	:	COGENT START
+39	[39]	:	Loading image 1/100
+215	[176]	:	Loading image 2/100
+398	[183]	:	Loading image 3/100
+582	[184]	:	Loading image 4/100
+731	[149]	:	Loading image 5/100
+881	[150]	:	Loading image 6/100
+1031	[150]	:	Loading image 7/100
+1180	[149]	:	Loading image 8/100
+1330	[150]	:	Loading image 9/100
+1480	[150]	:	Loading image 10/100
+1630	[150]	:	Loading image 11/100
+1780	[150]	:	Loading image 12/100
+1930	[150]	:	Loading image 13/100
+2080	[150]	:	Loading image 14/100
+2263	[183]	:	Loading image 15/100
+2429	[166]	:	Loading image 16/100
+2629	[200]	:	Loading image 17/100
+2796	[167]	:	Loading image 18/100
+2962	[166]	:	Loading image 19/100
+3112	[150]	:	Loading image 20/100
+3261	[149]	:	Loading image 21/100
+3411	[150]	:	Loading image 22/100
+3578	[167]	:	Loading image 23/100
+3728	[150]	:	Loading image 24/100
+3877	[149]	:	Loading image 25/100
+4027	[150]	:	Loading image 26/100
+4194	[167]	:	Loading image 27/100
+4394	[200]	:	Loading image 28/100
+4577	[183]	:	Loading image 29/100
+4727	[150]	:	Loading image 30/100
+4877	[150]	:	Loading image 31/100
+5027	[150]	:	Loading image 32/100
+5176	[149]	:	Loading image 33/100
+5343	[167]	:	Loading image 34/100
+5509	[166]	:	Loading image 35/100
+5675	[166]	:	Loading image 36/100
+5842	[167]	:	Loading image 37/100
+5992	[150]	:	Loading image 38/100
+6159	[167]	:	Loading image 39/100
+6325	[166]	:	Loading image 40/100
+6509	[184]	:	Loading image 41/100
+6692	[183]	:	Loading image 42/100
+6842	[150]	:	Loading image 43/100
+6992	[150]	:	Loading image 44/100
+7142	[150]	:	Loading image 45/100
+7308	[166]	:	Loading image 46/100
+7474	[166]	:	Loading image 47/100
+7642	[168]	:	Loading image 48/100
+7791	[149]	:	Loading image 49/100
+7941	[150]	:	Loading image 50/100
+8090	[149]	:	Loading image 51/100
+8274	[184]	:	Loading image 52/100
+8457	[183]	:	Loading image 53/100
+8657	[200]	:	Loading image 54/100
+8823	[166]	:	Loading image 55/100
+8990	[167]	:	Loading image 56/100
+9156	[166]	:	Loading image 57/100
+9306	[150]	:	Loading image 58/100
+9472	[166]	:	Loading image 59/100
+9622	[150]	:	Loading image 60/100
+9772	[150]	:	Loading image 61/100
+9938	[166]	:	Loading image 62/100
+10088	[150]	:	Loading image 63/100
+10255	[167]	:	Loading image 64/100
+10438	[183]	:	Loading image 65/100
+10621	[183]	:	Loading image 66/100
+10804	[183]	:	Loading image 67/100
+10988	[184]	:	Loading image 68/100
+11137	[149]	:	Loading image 69/100
+11287	[150]	:	Loading image 70/100
+11437	[150]	:	Loading image 71/100
+11587	[150]	:	Loading image 72/100
+11737	[150]	:	Loading image 73/100
+11886	[149]	:	Loading image 74/100
+12053	[167]	:	Loading image 75/100
+12220	[167]	:	Loading image 76/100
+12402	[182]	:	Loading image 77/100
+12586	[184]	:	Loading image 78/100
+12752	[166]	:	Loading image 79/100
+12935	[183]	:	Loading image 80/100
+13102	[167]	:	Loading image 81/100
+13353	[251]	:	Loading image 82/100
+13535	[182]	:	Loading image 83/100
+13701	[166]	:	Loading image 84/100
+13868	[167]	:	Loading image 85/100
+14034	[166]	:	Loading image 86/100
+14217	[183]	:	Loading image 87/100
+14384	[167]	:	Loading image 88/100
+14550	[166]	:	Loading image 89/100
+14734	[184]	:	Loading image 90/100
+14883	[149]	:	Loading image 91/100
+15033	[150]	:	Loading image 92/100
+15183	[150]	:	Loading image 93/100
+15349	[166]	:	Loading image 94/100
+15517	[168]	:	Loading image 95/100
+15666	[149]	:	Loading image 96/100
+15832	[166]	:	Loading image 97/100
+15999	[167]	:	Loading image 98/100
+16165	[166]	:	Loading image 99/100
+16347	[182]	:	Loading image 100/100
+19685	[3338]	:	Key	71	DOWN	at	19685   
+19795	[110]	:	Key	71	UP	at	19750   
+19796	[1]	:	Landolt C: 9: S. Standard lowc checkboard background
+19911	[115]	:	Landolt C: 7: R. Standard lowc checkboard background
+20610	[699]	:	Landolt C: 9: S. Standard lowc checkboard background
+21427	[817]	:	Landolt C: 5: L. Standard lowc checkboard background
+22242	[815]	:	Landolt C: 9: S. Standard lowc checkboard background
+23058	[816]	:	Landolt C: 5: L. Standard lowc checkboard background
+23875	[817]	:	Landolt C: 9: S. Standard lowc checkboard background
+24691	[816]	:	Landolt C: 7: R. Standard lowc checkboard background
+25506	[815]	:	Landolt C: 9: S. Standard lowc checkboard background
+26206	[700]	:	Landolt C: 5: L. Standard lowc checkboard background
+27021	[815]	:	Landolt C: 9: S. Standard lowc checkboard background
+27837	[816]	:	Landolt C: 7: R. Standard lowc checkboard background
+28653	[816]	:	Landolt C: 9: S. Standard lowc checkboard background
+29469	[816]	:	Landolt C: 5: L. Standard lowc checkboard background
+30284	[815]	:	Landolt C: 9: S. Standard lowc checkboard background
+31101	[817]	:	Landolt C: 7: R. Standard lowc checkboard background
+31916	[815]	:	Landolt C: 9: S. Standard lowc checkboard background
+32716	[800]	:	Landolt C: 5: L. Standard lowc checkboard background
+33414	[698]	:	Landolt C: 9: S. Standard lowc checkboard background
+34230	[816]	:	Landolt C: 5: L. Standard lowc checkboard background
+34696	[466]	:	Preparing image number : 001
+34814	[118]	:	Landolt C: 5: L. Image: 1
+35046	[232]	:	Landolt C: 9: S. Image: 1
+35862	[816]	:	Landolt C: 5: L. Image: 1
+36677	[815]	:	Landolt C: 9: S. Image: 1
+37493	[816]	:	Landolt C: 7: R. Image: 1
+37726	[233]	:	Preparing image number : 002
+37845	[119]	:	Landolt C: 7: R. Image: 2
+38309	[464]	:	Landolt C: 9: S. Image: 2
+39025	[716]	:	Landolt C: 7: R. Image: 2
+39841	[816]	:	Landolt C: 9: S. Image: 2
+40657	[816]	:	Landolt C: 7: R. Image: 2
+40773	[116]	:	Preparing image number : 003
+40889	[116]	:	Landolt C: 7: R. Image: 3
+41473	[584]	:	Landolt C: 9: S. Image: 3
+42289	[816]	:	Landolt C: 5: L. Image: 3
+43105	[816]	:	Landolt C: 9: S. Image: 3
+43804	[699]	:	Landolt C: 7: R. Image: 3
+43804	[0]	:	Preparing image number : 004
+43921	[117]	:	Landolt C: 7: R. Image: 4
+44620	[699]	:	Landolt C: 9: S. Image: 4
+45435	[815]	:	Landolt C: 5: L. Image: 4
+46251	[816]	:	Landolt C: 9: S. Image: 4
+46734	[483]	:	Preparing image number : 005
+46851	[117]	:	Landolt C: 9: S. Image: 5
+47084	[233]	:	Landolt C: 7: R. Image: 5
+47899	[815]	:	Landolt C: 9: S. Image: 5
+48715	[816]	:	Landolt C: 5: L. Image: 5
+49414	[699]	:	Landolt C: 9: S. Image: 5
+49764	[350]	:	Preparing image number : 006
+49881	[117]	:	Landolt C: 9: S. Image: 6
+50230	[349]	:	Landolt C: 5: L. Image: 6
+51063	[833]	:	Landolt C: 9: S. Image: 6
+51878	[815]	:	Landolt C: 5: L. Image: 6
+52694	[816]	:	Landolt C: 9: S. Image: 6
+52810	[116]	:	Preparing image number : 007
+52931	[121]	:	Landolt C: 9: S. Image: 7
+53510	[579]	:	Landolt C: 7: R. Image: 7
+54209	[699]	:	Landolt C: 9: S. Image: 7
+55026	[817]	:	Landolt C: 5: L. Image: 7
+55725	[699]	:	Preparing image number : 008
+55843	[118]	:	Landolt C: 9: S. Image: 8
+56656	[813]	:	Landolt C: 7: R. Image: 8
+57473	[817]	:	Landolt C: 9: S. Image: 8
+58288	[815]	:	Landolt C: 5: L. Image: 8
+58754	[466]	:	Preparing image number : 009
+58876	[122]	:	Landolt C: 5: L. Image: 9
+59105	[229]	:	Landolt C: 9: S. Image: 9
+59804	[699]	:	Landolt C: 5: L. Image: 9
+60620	[816]	:	Landolt C: 9: S. Image: 9
+61436	[816]	:	Landolt C: 7: R. Image: 9
+61785	[349]	:	Preparing image number : 010
+61903	[118]	:	Landolt C: 7: R. Image: 10
+62251	[348]	:	Landolt C: 9: S. Image: 10
+63067	[816]	:	Landolt C: 7: R. Image: 10
+63883	[816]	:	Landolt C: 9: S. Image: 10
+64699	[816]	:	Landolt C: 7: R. Image: 10
+64699	[0]	:	Preparing image number : 011
+64815	[116]	:	Landolt C: 7: R. Image: 11
+65513	[698]	:	Landolt C: 9: S. Image: 11
+66214	[701]	:	Landolt C: 5: L. Image: 11
+67030	[816]	:	Landolt C: 9: S. Image: 11
+67729	[699]	:	Preparing image number : 012
+67845	[116]	:	Landolt C: 5: L. Image: 12
+68661	[816]	:	Landolt C: 9: S. Image: 12
+69478	[817]	:	Landolt C: 7: R. Image: 12
+70293	[815]	:	Landolt C: 9: S. Image: 12
+70759	[466]	:	Preparing image number : 013
+70875	[116]	:	Landolt C: 9: S. Image: 13
+71109	[234]	:	Landolt C: 5: L. Image: 13
+71808	[699]	:	Landolt C: 9: S. Image: 13
+72624	[816]	:	Landolt C: 5: L. Image: 13
+73439	[815]	:	Key	32	DOWN	at	73000   
+73440	[1]	:	Key	32	UP	at	73080   
+73440	[0]	:	Landolt C: 9: S. Image: 13
+73789	[349]	:	Preparing image number : 014
+73906	[117]	:	Landolt C: 9: S. Image: 14
+74255	[349]	:	Landolt C: 7: R. Image: 14
+75071	[816]	:	Landolt C: 9: S. Image: 14
+75887	[816]	:	Landolt C: 5: L. Image: 14
+76703	[816]	:	Landolt C: 9: S. Image: 14
+76704	[1]	:	Preparing image number : 015
+76822	[118]	:	Landolt C: 9: S. Image: 15
+77520	[698]	:	Landolt C: 5: L. Image: 15
+78219	[699]	:	Landolt C: 9: S. Image: 15
+79034	[815]	:	Landolt C: 5: L. Image: 15
+79733	[699]	:	Preparing image number : 016
+79851	[118]	:	Landolt C: 9: S. Image: 16
+80666	[815]	:	Landolt C: 7: R. Image: 16
+81482	[816]	:	Landolt C: 9: S. Image: 16
+82297	[815]	:	Landolt C: 5: L. Image: 16
+82763	[466]	:	Preparing image number : 017
+82881	[118]	:	Landolt C: 5: L. Image: 17
+83113	[232]	:	Landolt C: 9: S. Image: 17
+83812	[699]	:	Landolt C: 5: L. Image: 17
+84628	[816]	:	Landolt C: 9: S. Image: 17
+85444	[816]	:	Landolt C: 7: R. Image: 17
+85793	[349]	:	Preparing image number : 018
+85911	[118]	:	Landolt C: 7: R. Image: 18
+86259	[348]	:	Landolt C: 9: S. Image: 18
+87075	[816]	:	Landolt C: 5: L. Image: 18
+87891	[816]	:	Landolt C: 9: S. Image: 18
+88607	[716]	:	Landolt C: 5: L. Image: 18
+88723	[116]	:	Preparing image number : 019
+88845	[122]	:	Landolt C: 5: L. Image: 19
+89425	[580]	:	Landolt C: 9: S. Image: 19
+90239	[814]	:	Landolt C: 5: L. Image: 19
+91054	[815]	:	Landolt C: 9: S. Image: 19
+91753	[699]	:	Preparing image number : 020
+91870	[117]	:	Landolt C: 7: R. Image: 20
+92686	[816]	:	Landolt C: 9: S. Image: 20
+93502	[816]	:	Landolt C: 5: L. Image: 20
+94302	[800]	:	Landolt C: 9: S. Image: 20
+94768	[466]	:	Preparing image number : 021
+94884	[116]	:	Landolt C: 9: S. Image: 21
+95001	[117]	:	Landolt C: 7: R. Image: 21
+95817	[816]	:	Landolt C: 9: S. Image: 21
+96633	[816]	:	Landolt C: 7: R. Image: 21
+97449	[816]	:	Landolt C: 9: S. Image: 21
+97798	[349]	:	Preparing image number : 022
+97917	[119]	:	Landolt C: 9: S. Image: 22
+98265	[348]	:	Landolt C: 7: R. Image: 22
+99097	[832]	:	Landolt C: 9: S. Image: 22
+99912	[815]	:	Landolt C: 7: R. Image: 22
+100612	[700]	:	Landolt C: 9: S. Image: 22
+100728	[116]	:	Preparing image number : 023
+100845	[117]	:	Landolt C: 9: S. Image: 23
+101428	[583]	:	Landolt C: 5: L. Image: 23
+102243	[815]	:	Landolt C: 9: S. Image: 23
+103076	[833]	:	Landolt C: 7: R. Image: 23
+103774	[698]	:	Preparing image number : 024
+103892	[118]	:	Landolt C: 9: S. Image: 24
+104707	[815]	:	Landolt C: 5: L. Image: 24
+105406	[699]	:	Landolt C: 9: S. Image: 24
+106222	[816]	:	Landolt C: 5: L. Image: 24
+106804	[582]	:	Preparing image number : 025
+106921	[117]	:	Landolt C: 5: L. Image: 25
+107038	[117]	:	Landolt C: 9: S. Image: 25
+107854	[816]	:	Landolt C: 7: R. Image: 25
+108669	[815]	:	Landolt C: 9: S. Image: 25
+109485	[816]	:	Landolt C: 7: R. Image: 25
+109718	[233]	:	Preparing image number : 026
+109835	[117]	:	Landolt C: 7: R. Image: 26
+110301	[466]	:	Landolt C: 9: S. Image: 26
+111117	[816]	:	Landolt C: 5: L. Image: 26
+111818	[701]	:	Landolt C: 9: S. Image: 26
+112633	[815]	:	Landolt C: 7: R. Image: 26
+112749	[116]	:	Preparing image number : 027
+112866	[117]	:	Landolt C: 7: R. Image: 27
+113448	[582]	:	Landolt C: 9: S. Image: 27
+114265	[817]	:	Landolt C: 7: R. Image: 27
+115081	[816]	:	Landolt C: 9: S. Image: 27
+115779	[698]	:	Preparing image number : 028
+115898	[119]	:	Landolt C: 5: L. Image: 28
+116712	[814]	:	Landolt C: 9: S. Image: 28
+117411	[699]	:	Landolt C: 7: R. Image: 28
+118227	[816]	:	Landolt C: 9: S. Image: 28
+118809	[582]	:	Preparing image number : 029
+118926	[117]	:	Landolt C: 9: S. Image: 29
+119042	[116]	:	Landolt C: 5: L. Image: 29
+119858	[816]	:	Landolt C: 9: S. Image: 29
+120674	[816]	:	Landolt C: 7: R. Image: 29
+121490	[816]	:	Landolt C: 9: S. Image: 29
+121723	[233]	:	Preparing image number : 030
+121841	[118]	:	Landolt C: 9: S. Image: 30
+122305	[464]	:	Landolt C: 5: L. Image: 30
+123005	[700]	:	Landolt C: 9: S. Image: 30
+123820	[815]	:	Landolt C: 5: L. Image: 30
+124637	[817]	:	Landolt C: 9: S. Image: 30
+124753	[116]	:	Preparing image number : 031
+124871	[118]	:	Landolt C: 9: S. Image: 31
+125452	[581]	:	Key	97	DOWN	at	125064  
+125452	[0]	:	Key	97	UP	at	125124  
+125453	[1]	:	Key	97	DOWN	at	125189  
+125453	[0]	:	Key	97	UP	at	125284  
+125454	[1]	:	Key	98	DOWN	at	125444  
+125454	[0]	:	Landolt C: 5: L. Image: 31
+126268	[814]	:	Key	98	UP	at	125477  
+126268	[0]	:	Key	98	DOWN	at	125572  
+126268	[0]	:	Key	98	UP	at	125637  
+126269	[1]	:	Key	97	DOWN	at	125752  
+126269	[0]	:	Key	97	UP	at	125812  
+126270	[1]	:	Key	98	DOWN	at	125877  
+126270	[0]	:	Key	98	UP	at	125972  
+126271	[1]	:	Landolt C: 9: S. Image: 31
+127084	[813]	:	Landolt C: 7: R. Image: 31
+127783	[699]	:	Preparing image number : 032
+127899	[116]	:	Key	98	DOWN	at	127461  
+127900	[1]	:	Key	98	UP	at	127491  
+127900	[0]	:	Key	98	DOWN	at	127591  
+127901	[1]	:	Key	98	UP	at	127671  
+127901	[0]	:	Key	97	DOWN	at	127686  
+127902	[1]	:	Key	97	UP	at	127766  
+127902	[0]	:	Key	98	DOWN	at	127784  
+127902	[0]	:	Key	98	UP	at	127844  
+127903	[1]	:	Key	97	DOWN	at	127879  
+127903	[0]	:	Landolt C: 9: S. Image: 32
+128698	[795]	:	Key	97	UP	at	127989  
+128699	[1]	:	Key	98	DOWN	at	127989  
+128699	[0]	:	Key	98	UP	at	128038  
+128699	[0]	:	Key	98	DOWN	at	128133  
+128699	[0]	:	Key	98	UP	at	128199  
+128699	[0]	:	Key	97	DOWN	at	128244  
+128701	[2]	:	Key	97	UP	at	128294  
+128701	[0]	:	Landolt C: 7: R. Image: 32
+129499	[798]	:	Key	98	DOWN	at	129157  
+129500	[1]	:	Key	98	UP	at	129238  
+129500	[0]	:	Key	98	DOWN	at	129431  
+129501	[1]	:	Key	98	UP	at	129461  
+129501	[0]	:	Landolt C: 9: S. Image: 32
+130314	[813]	:	Key	98	DOWN	at	129957  
+130315	[1]	:	Key	98	UP	at	130021  
+130315	[0]	:	Key	97	DOWN	at	130232  
+130315	[0]	:	Key	97	UP	at	130276  
+130316	[1]	:	Landolt C: 7: R. Image: 32
+130780	[464]	:	Preparing image number : 033
+130898	[118]	:	Key	97	DOWN	at	130357  
+130899	[1]	:	Key	97	UP	at	130422  
+130899	[0]	:	Key	98	DOWN	at	130502  
+130900	[1]	:	Key	98	UP	at	130567  
+130900	[0]	:	Key	97	DOWN	at	130612  
+130900	[0]	:	Key	97	UP	at	130667  
+130901	[1]	:	Key	98	DOWN	at	130692  
+130901	[0]	:	Key	98	UP	at	130771  
+130901	[0]	:	Landolt C: 7: R. Image: 33
+131014	[113]	:	Landolt C: 9: S. Image: 33
+131829	[815]	:	Key	97	DOWN	at	131268  
+131830	[1]	:	Key	97	UP	at	131318  
+131831	[1]	:	Key	98	DOWN	at	131318  
+131831	[0]	:	Key	98	UP	at	131428  
+131832	[1]	:	Landolt C: 5: L. Image: 33
+132645	[813]	:	Key	97	DOWN	at	131879  
+132646	[1]	:	Key	97	UP	at	131974  
+132646	[0]	:	Landolt C: 9: S. Image: 33
+133461	[815]	:	Key	98	DOWN	at	133030  
+133461	[0]	:	Key	98	UP	at	133110  
+133462	[1]	:	Landolt C: 5: L. Image: 33
+133810	[348]	:	Preparing image number : 034
+133927	[117]	:	Landolt C: 5: L. Image: 34
+134277	[350]	:	Landolt C: 9: S. Image: 34
+135092	[815]	:	Landolt C: 7: R. Image: 34
+135909	[817]	:	Key	98	DOWN	at	135414  
+135910	[1]	:	Key	98	UP	at	135509  
+135910	[0]	:	Landolt C: 9: S. Image: 34
+136607	[697]	:	Landolt C: 7: R. Image: 34
+136724	[117]	:	Preparing image number : 035
+136843	[119]	:	Key	97	DOWN	at	136629  
+136844	[1]	:	Key	97	UP	at	136709  
+136845	[1]	:	Landolt C: 7: R. Image: 35
+137424	[579]	:	Landolt C: 9: S. Image: 35
+138239	[815]	:	Landolt C: 7: R. Image: 35
+139055	[816]	:	Key	98	DOWN	at	138629  
+139056	[1]	:	Key	98	UP	at	138760  
+139056	[0]	:	Landolt C: 9: S. Image: 35
+139754	[698]	:	Preparing image number : 036
+139873	[119]	:	Landolt C: 7: R. Image: 36
+140686	[813]	:	Key	98	DOWN	at	140296  
+140687	[1]	:	Key	98	UP	at	140391  
+140687	[0]	:	Landolt C: 9: S. Image: 36
+141503	[816]	:	Landolt C: 7: R. Image: 36
+142218	[715]	:	Key	98	DOWN	at	141925  
+142219	[1]	:	Key	98	UP	at	142040  
+142220	[1]	:	Landolt C: 9: S. Image: 36
+142800	[580]	:	Preparing image number : 037
+142919	[119]	:	Landolt C: 9: S. Image: 37
+143034	[115]	:	Landolt C: 5: L. Image: 37
+143849	[815]	:	Key	97	DOWN	at	143416  
+143850	[1]	:	Key	97	UP	at	143541  
+143850	[0]	:	Landolt C: 9: S. Image: 37
+144666	[816]	:	Landolt C: 5: L. Image: 37
+145481	[815]	:	Key	97	DOWN	at	145078  
+145482	[1]	:	Key	97	UP	at	145173  
+145482	[0]	:	Landolt C: 9: S. Image: 37
+145714	[232]	:	Preparing image number : 038
+145831	[117]	:	Landolt C: 9: S. Image: 38
+146281	[450]	:	Landolt C: 7: R. Image: 38
+147097	[816]	:	Key	98	DOWN	at	146664  
+147097	[0]	:	Key	98	UP	at	146774  
+147098	[1]	:	Landolt C: 9: S. Image: 38
+147913	[815]	:	Landolt C: 7: R. Image: 38
+148612	[699]	:	Key	98	DOWN	at	148311  
+148613	[1]	:	Key	98	UP	at	148421  
+148613	[0]	:	Landolt C: 9: S. Image: 38
+148729	[116]	:	Preparing image number : 039
+148848	[119]	:	Landolt C: 9: S. Image: 39
+149428	[580]	:	Landolt C: 5: L. Image: 39
+150243	[815]	:	Key	97	DOWN	at	149813  
+150244	[1]	:	Key	97	UP	at	149943  
+150244	[0]	:	Landolt C: 9: S. Image: 39
+151059	[815]	:	Landolt C: 5: L. Image: 39
+151758	[699]	:	Preparing image number : 040
+151878	[120]	:	Key	97	DOWN	at	151413  
+151878	[0]	:	Key	97	UP	at	151528  
+151879	[1]	:	Landolt C: 9: S. Image: 40
+152691	[812]	:	Landolt C: 7: R. Image: 40
+153507	[816]	:	Key	98	DOWN	at	152983  
+153508	[1]	:	Key	98	UP	at	153124  
+153509	[1]	:	Landolt C: 9: S. Image: 40
+154206	[697]	:	Landolt C: 7: R. Image: 40
+154788	[582]	:	Preparing image number : 041
+154905	[117]	:	Key	98	DOWN	at	154535  
+154905	[0]	:	Key	98	UP	at	154692  
+154906	[1]	:	Landolt C: 7: R. Image: 41
+155023	[117]	:	Landolt C: 9: S. Image: 41
+155838	[815]	:	Landolt C: 5: L. Image: 41
+156653	[815]	:	Key	97	DOWN	at	156167  
+156654	[1]	:	Key	97	UP	at	156292  
+156655	[1]	:	Landolt C: 9: S. Image: 41
+157469	[814]	:	Landolt C: 7: R. Image: 41
+157702	[233]	:	Preparing image number : 042
+157819	[117]	:	Landolt C: 7: R. Image: 42
+158285	[466]	:	Landolt C: 9: S. Image: 42
+159101	[816]	:	Landolt C: 7: R. Image: 42
+159917	[816]	:	Landolt C: 9: S. Image: 42
+160620	[703]	:	Landolt C: 5: L. Image: 42
+160732	[112]	:	Preparing image number : 043
+160849	[117]	:	Landolt C: 5: L. Image: 43
+161432	[583]	:	Landolt C: 9: S. Image: 43
+162247	[815]	:	Landolt C: 5: L. Image: 43
+163063	[816]	:	Landolt C: 9: S. Image: 43
+163747	[684]	:	Preparing image number : 044
+163863	[116]	:	Landolt C: 5: L. Image: 44
+164679	[816]	:	Landolt C: 9: S. Image: 44
+165495	[816]	:	Landolt C: 7: R. Image: 44
+166311	[816]	:	Landolt C: 9: S. Image: 44
+166776	[465]	:	Preparing image number : 045
+166893	[117]	:	Landolt C: 9: S. Image: 45
+167010	[117]	:	Landolt C: 5: L. Image: 45
+167826	[816]	:	Landolt C: 9: S. Image: 45
+168641	[815]	:	Landolt C: 5: L. Image: 45
+169457	[816]	:	Landolt C: 9: S. Image: 45
+169806	[349]	:	Preparing image number : 046
+169923	[117]	:	Landolt C: 9: S. Image: 46
+170273	[350]	:	Landolt C: 7: R. Image: 46
+171089	[816]	:	Landolt C: 9: S. Image: 46
+171905	[816]	:	Landolt C: 5: L. Image: 46
+172604	[699]	:	Landolt C: 9: S. Image: 46
+172720	[116]	:	Preparing image number : 047
+172837	[117]	:	Landolt C: 9: S. Image: 47
+173419	[582]	:	Landolt C: 5: L. Image: 47
+174235	[816]	:	Landolt C: 9: S. Image: 47
+175051	[816]	:	Landolt C: 7: R. Image: 47
+175751	[700]	:	Preparing image number : 048
+175867	[116]	:	Landolt C: 9: S. Image: 48
+176683	[816]	:	Landolt C: 5: L. Image: 48
+177498	[815]	:	Landolt C: 9: S. Image: 48
+178314	[816]	:	Landolt C: 7: R. Image: 48
+178780	[466]	:	Preparing image number : 049
+178897	[117]	:	Landolt C: 7: R. Image: 49
+179013	[116]	:	Landolt C: 9: S. Image: 49
+179830	[817]	:	Landolt C: 5: L. Image: 49
+180645	[815]	:	Landolt C: 9: S. Image: 49
+181462	[817]	:	Landolt C: 5: L. Image: 49
+181811	[349]	:	Preparing image number : 050
+181930	[119]	:	Landolt C: 5: L. Image: 50
+182277	[347]	:	Landolt C: 9: S. Image: 50
+183093	[816]	:	Landolt C: 5: L. Image: 50
+183909	[816]	:	Landolt C: 9: S. Image: 50
+184608	[699]	:	Landolt C: 5: L. Image: 50
+184725	[117]	:	Preparing image number : 051
+184844	[119]	:	Landolt C: 5: L. Image: 51
+185424	[580]	:	Landolt C: 9: S. Image: 51
+186240	[816]	:	Landolt C: 7: R. Image: 51
+187055	[815]	:	Landolt C: 9: S. Image: 51
+187755	[700]	:	Preparing image number : 052
+187871	[116]	:	Landolt C: 7: R. Image: 52
+188687	[816]	:	Landolt C: 9: S. Image: 52
+189503	[816]	:	Landolt C: 5: L. Image: 52
+190319	[816]	:	Landolt C: 9: S. Image: 52
+190784	[465]	:	Preparing image number : 053
+190901	[117]	:	Landolt C: 9: S. Image: 53
+191021	[120]	:	Landolt C: 5: L. Image: 53
+191833	[812]	:	Landolt C: 9: S. Image: 53
+192649	[816]	:	Landolt C: 7: R. Image: 53
+193465	[816]	:	Landolt C: 9: S. Image: 53
+193698	[233]	:	Preparing image number : 054
+193815	[117]	:	Landolt C: 9: S. Image: 54
+194281	[466]	:	Landolt C: 7: R. Image: 54
+195097	[816]	:	Landolt C: 9: S. Image: 54
+195913	[816]	:	Landolt C: 7: R. Image: 54
+196612	[699]	:	Landolt C: 9: S. Image: 54
+196728	[116]	:	Preparing image number : 055
+196845	[117]	:	Landolt C: 9: S. Image: 55
+197428	[583]	:	Landolt C: 5: L. Image: 55
+198243	[815]	:	Landolt C: 9: S. Image: 55
+199043	[800]	:	Landolt C: 5: L. Image: 55
+199743	[700]	:	Preparing image number : 056
+199859	[116]	:	Landolt C: 9: S. Image: 56
+200675	[816]	:	Landolt C: 7: R. Image: 56
+201491	[816]	:	Landolt C: 9: S. Image: 56
+202307	[816]	:	Landolt C: 5: L. Image: 56
+202772	[465]	:	Preparing image number : 057
+202891	[119]	:	Landolt C: 5: L. Image: 57
+203006	[115]	:	Landolt C: 9: S. Image: 57
+203821	[815]	:	Landolt C: 7: R. Image: 57
+204637	[816]	:	Landolt C: 9: S. Image: 57
+205453	[816]	:	Landolt C: 5: L. Image: 57
+205803	[350]	:	Preparing image number : 058
+205919	[116]	:	Landolt C: 5: L. Image: 58
+206269	[350]	:	Landolt C: 9: S. Image: 58
+207085	[816]	:	Landolt C: 5: L. Image: 58
+207900	[815]	:	Landolt C: 9: S. Image: 58
+208716	[816]	:	Landolt C: 7: R. Image: 58
+208717	[1]	:	Preparing image number : 059
+208833	[116]	:	Landolt C: 7: R. Image: 59
+209415	[582]	:	Landolt C: 9: S. Image: 59
+210231	[816]	:	Landolt C: 7: R. Image: 59
+211047	[816]	:	Landolt C: 9: S. Image: 59
+211746	[699]	:	Preparing image number : 060
+211865	[119]	:	Landolt C: 7: R. Image: 60
+212678	[813]	:	Landolt C: 9: S. Image: 60
+213494	[816]	:	Landolt C: 5: L. Image: 60
+214310	[816]	:	Landolt C: 9: S. Image: 60
+214776	[466]	:	Preparing image number : 061
+214893	[117]	:	Landolt C: 9: S. Image: 61
+215012	[119]	:	Landolt C: 7: R. Image: 61
+215826	[814]	:	Landolt C: 9: S. Image: 61
+216642	[816]	:	Landolt C: 5: L. Image: 61
+217457	[815]	:	Landolt C: 9: S. Image: 61
+217807	[350]	:	Preparing image number : 062
+217924	[117]	:	Landolt C: 9: S. Image: 62
+218273	[349]	:	Landolt C: 5: L. Image: 62
+219089	[816]	:	Landolt C: 9: S. Image: 62
+219906	[817]	:	Landolt C: 5: L. Image: 62
+220605	[699]	:	Landolt C: 9: S. Image: 62
+220721	[116]	:	Preparing image number : 063
+220837	[116]	:	Landolt C: 9: S. Image: 63
+221420	[583]	:	Landolt C: 7: R. Image: 63
+222236	[816]	:	Landolt C: 9: S. Image: 63
+223051	[815]	:	Landolt C: 7: R. Image: 63
+223750	[699]	:	Preparing image number : 064
+223870	[120]	:	Landolt C: 9: S. Image: 64
+224683	[813]	:	Landolt C: 7: R. Image: 64
+225499	[816]	:	Landolt C: 9: S. Image: 64
+226315	[816]	:	Landolt C: 7: R. Image: 64
+226781	[466]	:	Preparing image number : 065
+226897	[116]	:	Landolt C: 7: R. Image: 65
+227016	[119]	:	Landolt C: 9: S. Image: 65
+227829	[813]	:	Landolt C: 5: L. Image: 65
+228645	[816]	:	Landolt C: 9: S. Image: 65
+229461	[816]	:	Landolt C: 7: R. Image: 65
+229810	[349]	:	Preparing image number : 066
+229930	[120]	:	Landolt C: 7: R. Image: 66
+230277	[347]	:	Landolt C: 9: S. Image: 66
+231092	[815]	:	Landolt C: 5: L. Image: 66
+231908	[816]	:	Landolt C: 9: S. Image: 66
+232608	[700]	:	Landolt C: 7: R. Image: 66
+232724	[116]	:	Preparing image number : 067
+232843	[119]	:	Landolt C: 7: R. Image: 67
+233423	[580]	:	Landolt C: 9: S. Image: 67
+234240	[817]	:	Landolt C: 5: L. Image: 67
+235056	[816]	:	Landolt C: 9: S. Image: 67
+235755	[699]	:	Preparing image number : 068
+235874	[119]	:	Landolt C: 5: L. Image: 68
+236688	[814]	:	Landolt C: 9: S. Image: 68
+237503	[815]	:	Landolt C: 7: R. Image: 68
+238319	[816]	:	Landolt C: 9: S. Image: 68
+238785	[466]	:	Preparing image number : 069
+238902	[117]	:	Landolt C: 9: S. Image: 69
+239018	[116]	:	Landolt C: 5: L. Image: 69
+239835	[817]	:	Landolt C: 9: S. Image: 69
+240650	[815]	:	Landolt C: 7: R. Image: 69
+241466	[816]	:	Landolt C: 9: S. Image: 69
+241698	[232]	:	Preparing image number : 070
+241815	[117]	:	Landolt C: 9: S. Image: 70
+242281	[466]	:	Landolt C: 7: R. Image: 70
+243097	[816]	:	Landolt C: 9: S. Image: 70
+243913	[816]	:	Landolt C: 5: L. Image: 70
+244612	[699]	:	Landolt C: 9: S. Image: 70
+244729	[117]	:	Preparing image number : 071
+244845	[116]	:	Landolt C: 9: S. Image: 71
+245428	[583]	:	Landolt C: 7: R. Image: 71
+246244	[816]	:	Landolt C: 9: S. Image: 71
+247059	[815]	:	Landolt C: 7: R. Image: 71
+247758	[699]	:	Preparing image number : 072
+247878	[120]	:	Landolt C: 9: S. Image: 72
+248691	[813]	:	Landolt C: 5: L. Image: 72
+249507	[816]	:	Landolt C: 9: S. Image: 72
+250206	[699]	:	Landolt C: 5: L. Image: 72
+250788	[582]	:	Preparing image number : 073
+250908	[120]	:	Landolt C: 5: L. Image: 73
+251022	[114]	:	Landolt C: 9: S. Image: 73
+251839	[817]	:	Landolt C: 7: R. Image: 73
+252655	[816]	:	Landolt C: 9: S. Image: 73
+253471	[816]	:	Landolt C: 7: R. Image: 73
+253703	[232]	:	Preparing image number : 074
+253823	[120]	:	Landolt C: 7: R. Image: 74
+254286	[463]	:	Landolt C: 9: S. Image: 74
+255102	[816]	:	Landolt C: 5: L. Image: 74
+255917	[815]	:	Landolt C: 9: S. Image: 74
+256617	[700]	:	Landolt C: 5: L. Image: 74
+256733	[116]	:	Preparing image number : 075
+256853	[120]	:	Landolt C: 5: L. Image: 75
+257433	[580]	:	Landolt C: 9: S. Image: 75
+258232	[799]	:	Landolt C: 5: L. Image: 75
+259048	[816]	:	Landolt C: 9: S. Image: 75
+259713	[665]	:	Preparing image number : 076
+259832	[119]	:	Landolt C: 7: R. Image: 76
+260630	[798]	:	Landolt C: 9: S. Image: 76
+261445	[815]	:	Landolt C: 7: R. Image: 76
+262260	[815]	:	Landolt C: 9: S. Image: 76
+262726	[466]	:	Preparing image number : 077
+262844	[118]	:	Landolt C: 9: S. Image: 77
+263076	[232]	:	Landolt C: 7: R. Image: 77
+263892	[816]	:	Landolt C: 9: S. Image: 77
+264708	[816]	:	Landolt C: 7: R. Image: 77
+265407	[699]	:	Landolt C: 9: S. Image: 77
+265756	[349]	:	Preparing image number : 078
+265873	[117]	:	Landolt C: 9: S. Image: 78
+266223	[350]	:	Landolt C: 5: L. Image: 78
+267039	[816]	:	Landolt C: 9: S. Image: 78
+267855	[816]	:	Landolt C: 7: R. Image: 78
+268654	[799]	:	Landolt C: 9: S. Image: 78
+268771	[117]	:	Preparing image number : 079
+268889	[118]	:	Landolt C: 9: S. Image: 79
+269470	[581]	:	Landolt C: 5: L. Image: 79
+270286	[816]	:	Landolt C: 9: S. Image: 79
+271102	[816]	:	Landolt C: 5: L. Image: 79
+271801	[699]	:	Preparing image number : 080
+271918	[117]	:	Landolt C: 9: S. Image: 80
+272617	[699]	:	Landolt C: 7: R. Image: 80
+273433	[816]	:	Landolt C: 9: S. Image: 80
+274249	[816]	:	Landolt C: 7: R. Image: 80
+274715	[466]	:	Preparing image number : 081
+274831	[116]	:	Landolt C: 7: R. Image: 81
+275065	[234]	:	Landolt C: 9: S. Image: 81
+275880	[815]	:	Landolt C: 7: R. Image: 81
+276696	[816]	:	Landolt C: 9: S. Image: 81
+277512	[816]	:	Landolt C: 7: R. Image: 81
+277744	[232]	:	Preparing image number : 082
+277863	[119]	:	Landolt C: 7: R. Image: 82
+278211	[348]	:	Landolt C: 9: S. Image: 82
+279027	[816]	:	Landolt C: 7: R. Image: 82
+279842	[815]	:	Landolt C: 9: S. Image: 82
+280658	[816]	:	Landolt C: 5: L. Image: 82
+280775	[117]	:	Preparing image number : 083
+280891	[116]	:	Landolt C: 5: L. Image: 83
+281475	[584]	:	Landolt C: 9: S. Image: 83
+282290	[815]	:	Landolt C: 5: L. Image: 83
+283105	[815]	:	Landolt C: 9: S. Image: 83
+283805	[700]	:	Landolt C: 5: L. Image: 83
+283805	[0]	:	Preparing image number : 084
+283923	[118]	:	Landolt C: 5: L. Image: 84
+284621	[698]	:	Landolt C: 9: S. Image: 84
+285437	[816]	:	Landolt C: 5: L. Image: 84
+286253	[816]	:	Landolt C: 9: S. Image: 84
+286719	[466]	:	Preparing image number : 085
+286837	[118]	:	Landolt C: 9: S. Image: 85
+287069	[232]	:	Landolt C: 5: L. Image: 85
+287885	[816]	:	Landolt C: 9: S. Image: 85
+288700	[815]	:	Landolt C: 7: R. Image: 85
+289516	[816]	:	Landolt C: 9: S. Image: 85
+289749	[233]	:	Preparing image number : 086
+289866	[117]	:	Landolt C: 9: S. Image: 86
+290215	[349]	:	Landolt C: 5: L. Image: 86
+291031	[816]	:	Landolt C: 9: S. Image: 86
+291847	[816]	:	Landolt C: 7: R. Image: 86
+292663	[816]	:	Landolt C: 9: S. Image: 86
+292779	[116]	:	Preparing image number : 087
+292896	[117]	:	Landolt C: 9: S. Image: 87
+293478	[582]	:	Landolt C: 5: L. Image: 87
+294294	[816]	:	Landolt C: 9: S. Image: 87
+295110	[816]	:	Landolt C: 7: R. Image: 87
+295809	[699]	:	Landolt C: 9: S. Image: 87
+295810	[1]	:	Preparing image number : 088
+295927	[117]	:	Landolt C: 9: S. Image: 88
+296625	[698]	:	Landolt C: 5: L. Image: 88
+297441	[816]	:	Landolt C: 9: S. Image: 88
+298256	[815]	:	Landolt C: 7: R. Image: 88
+298722	[466]	:	Preparing image number : 089
+298842	[120]	:	Landolt C: 7: R. Image: 89
+299072	[230]	:	Landolt C: 9: S. Image: 89
+299888	[816]	:	Landolt C: 5: L. Image: 89
+300704	[816]	:	Landolt C: 9: S. Image: 89
+301403	[699]	:	Landolt C: 5: L. Image: 89
+301753	[350]	:	Preparing image number : 090
+301872	[119]	:	Landolt C: 5: L. Image: 90
+302220	[348]	:	Landolt C: 9: S. Image: 90
+303035	[815]	:	Landolt C: 7: R. Image: 90
+303835	[800]	:	Landolt C: 9: S. Image: 90
+304651	[816]	:	Landolt C: 7: R. Image: 90
+304767	[116]	:	Preparing image number : 091
+304884	[117]	:	Landolt C: 7: R. Image: 91
+305466	[582]	:	Landolt C: 9: S. Image: 91
+306282	[816]	:	Landolt C: 7: R. Image: 91
+307098	[816]	:	Landolt C: 9: S. Image: 91
+307797	[699]	:	Preparing image number : 092
+307914	[117]	:	Landolt C: 7: R. Image: 92
+308613	[699]	:	Landolt C: 9: S. Image: 92
+309429	[816]	:	Landolt C: 5: L. Image: 92
+310245	[816]	:	Landolt C: 9: S. Image: 92
+310711	[466]	:	Preparing image number : 093
+310827	[116]	:	Landolt C: 9: S. Image: 93
+311060	[233]	:	Landolt C: 5: L. Image: 93
+311876	[816]	:	Landolt C: 9: S. Image: 93
+312692	[816]	:	Landolt C: 7: R. Image: 93
+313507	[815]	:	Landolt C: 9: S. Image: 93
+313741	[234]	:	Preparing image number : 094
+313859	[118]	:	Landolt C: 9: S. Image: 94
+314207	[348]	:	Landolt C: 7: R. Image: 94
+315023	[816]	:	Landolt C: 9: S. Image: 94
+315838	[815]	:	Landolt C: 7: R. Image: 94
+316654	[816]	:	Landolt C: 9: S. Image: 94
+316770	[116]	:	Preparing image number : 095
+316887	[117]	:	Landolt C: 9: S. Image: 95
+317470	[583]	:	Landolt C: 7: R. Image: 95
+318286	[816]	:	Landolt C: 9: S. Image: 95
+319101	[815]	:	Landolt C: 5: L. Image: 95
+319800	[699]	:	Preparing image number : 096
+319917	[117]	:	Landolt C: 9: S. Image: 96
+320616	[699]	:	Landolt C: 7: R. Image: 96
+321433	[817]	:	Landolt C: 9: S. Image: 96
+322266	[833]	:	Landolt C: 7: R. Image: 96
+322732	[466]	:	Preparing image number : 097
+322851	[119]	:	Landolt C: 7: R. Image: 97
+323081	[230]	:	Landolt C: 9: S. Image: 97
+323897	[816]	:	Landolt C: 5: L. Image: 97
+324713	[816]	:	Landolt C: 9: S. Image: 97
+325412	[699]	:	Landolt C: 7: R. Image: 97
+325762	[350]	:	Preparing image number : 098
+325878	[116]	:	Landolt C: 7: R. Image: 98
+326228	[350]	:	Landolt C: 9: S. Image: 98
+327044	[816]	:	Landolt C: 5: L. Image: 98
+327860	[816]	:	Landolt C: 9: S. Image: 98
+328675	[815]	:	Landolt C: 5: L. Image: 98
+328792	[117]	:	Preparing image number : 099
+328910	[118]	:	Landolt C: 5: L. Image: 99
+329491	[581]	:	Landolt C: 9: S. Image: 99
+330307	[816]	:	Landolt C: 7: R. Image: 99
+331006	[699]	:	Landolt C: 9: S. Image: 99
+331705	[699]	:	Preparing image number : 100
+331825	[120]	:	Landolt C: 5: L. Image: 100
+332638	[813]	:	Landolt C: 9: S. Image: 100
+333454	[816]	:	Landolt C: 7: R. Image: 100
+334269	[815]	:	Landolt C: 9: S. Image: 100
+335085	[816]	:	Landolt C: 7: R. background
+335901	[816]	:	Landolt C: 9: S. background
+336717	[816]	:	Landolt C: 7: R. background
+337416	[699]	:	Landolt C: 9: S. background
+338232	[816]	:	Landolt C: 5: L. background
+339048	[816]	:	Landolt C: 9: S. background
+339864	[816]	:	Landolt C: 7: R. background
+340696	[832]	:	Landolt C: 9: S. background
+341512	[816]	:	Landolt C: 5: L. background
+342211	[699]	:	Landolt C: 9: S. background
+343027	[816]	:	Landolt C: 5: L. background
+343843	[816]	:	Landolt C: 9: S. background
+344659	[816]	:	Landolt C: 7: R. background
+345474	[815]	:	Landolt C: 9: S. background
+346307	[833]	:	Landolt C: 5: L. background
+347007	[700]	:	Landolt C: 9: S. background
+347822	[815]	:	Landolt C: 5: L. background
+348638	[816]	:	Landolt C: 9: S. background
+349453	[815]	:	Landolt C: 5: L. background
+349697	[244]	:	COGENT STOP
