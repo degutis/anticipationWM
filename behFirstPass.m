@@ -2,11 +2,11 @@
 
 open 'data/001_KM/001_KM_1_WMdistAnt_V1.mat'
 
-data.Answer = deg2rad(mod(data.Answer,180));
-data.StimulusOr = deg2rad(mod(data.StimulusOr,180)); 
+%data.Answer = deg2rad(mod(data.Answer,180));
+%data.StimulusOr = deg2rad(mod(data.StimulusOr,180)); 
 
 data.error = data.Answer - data.StimulusOr;
-data.error = (a+90)-floor((a+90)/180)*180 - 90;
+data.error = (data.error+90)-floor((data.error+90)/180)*180 - 90;
 
 
 %% Between different trial types
@@ -54,6 +54,11 @@ fig3 = figure(8)
 violinplot([data.error(data.DistractorOr==-30),data.error(data.DistractorOr==-15),data.error(data.DistractorOr==-5),data.error(data.DistractorOr==5),data.error(data.DistractorOr==15),data.error(data.DistractorOr==30)],{'-30','-15','-5','5','15','30'})
 
 [p3,tbl3,stats3] = anova1([data.error(data.DistractorOr==-30),data.error(data.DistractorOr==-15),data.error(data.DistractorOr==-5),data.error(data.DistractorOr==5),data.error(data.DistractorOr==15),data.error(data.DistractorOr==30)])
+
+fig4 = figure(16)
+violinplot([data.error(data.DistractorOr==-30 | data.DistractorOr==30),data.error(data.DistractorOr==-15 | data.DistractorOr==15),data.error(data.DistractorOr==-5 | data.DistractorOr==5)],{'abs(30)','abs(15)','abs(5)'})
+[p4,tbl4,stats4] = anova1([data.error(data.DistractorOr==-30 | data.DistractorOr==30),data.error(data.DistractorOr==-15 | data.DistractorOr==15),data.error(data.DistractorOr==-5 | data.DistractorOr==5)],{'abs(30)','abs(15)','abs(5)'})
+
 
 
 data.normalizedBias = (data.error./data.DistractorOr)*100;

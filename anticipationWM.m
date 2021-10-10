@@ -21,10 +21,10 @@ end
 
 PsychDefaultSetup(2); %converts color from 0-255 to float 0-1
 
-whichScreen = 1; %Screen ID.
+whichScreen = 0; %Screen ID.
 
 % REMOVE THIS WHEN ACTUALLY TESTING!!!! 
-Screen('Preference', 'SkipSyncTests', 1)
+Screen('Preference', 'SkipSyncTests', 0)
 
 
 %--------------------------------------------------------------------------
@@ -54,6 +54,9 @@ switch environment
         delete(instrfind)
         mriPulse = 1; % Flag for waiting for mriPulse
     case 'behav'
+        stim.distFromScreen = 60;
+        stim.ScreenSize = 45; %MANUALLY ENTER THE SCREEN SIZE in cm
+    case 'workPC'
         stim.distFromScreen = 50;
         stim.ScreenSize = 39.624; %MANUALLY ENTER THE SCREEN SIZE in cm
 end
@@ -86,15 +89,20 @@ end
 %% Task Parameters
 
 task.cues = [100, 0, 50];
-task.cuesColor = [{'blue'},{'orange'},{'green'}];
-task.cuesColorRGB = {[0, 0, 255] [255,165,0], [0,128,0]};
+%task.cuesColor = [{'blue'},{'orange'},{'green'}];
+%task.cuesColorRGB = {[0, 0, 255] [255,165,0], [0,128,0]};
 task.distractorOrientations = [30, 15, 5, -5, -15, -30];
 task.numUniqueTrials = length(task.cues)*length(task.distractorOrientations); 
-task.numOrientationBins = 6;
-task.memoryOrientations = [randi([5,25],task.numUniqueTrials,1),randi([35,55],task.numUniqueTrials,1),randi([65,85],task.numUniqueTrials,1),randi([95,115],task.numUniqueTrials,1),randi([125,155],task.numUniqueTrials,1),randi([165,185],task.numUniqueTrials,1)];
+task.trialScalar = 4;
 
-task.cuesFull = repelem(task.cues,task.numOrientationBins,length(task.distractorOrientations))';
-task.distractorOrientationsFull = repmat(task.distractorOrientations,task.numOrientationBins,length(task.cues))';
+
+task.numUniqueTrials = task.numUniqueTrials*task.trialScalar; %increase num of trials
+
+task.numOrientationBins = 6;
+task.memoryOrientations = [randi([5,35],task.numUniqueTrials,1),randi([36,65],task.numUniqueTrials,1),randi([66,85],task.numUniqueTrials,1),randi([95,125],task.numUniqueTrials,1),randi([126,155],task.numUniqueTrials,1),randi([156,175],task.numUniqueTrials,1)];
+
+task.cuesFull = repelem(task.cues,task.numOrientationBins,length(task.distractorOrientations)*task.trialScalar)';
+task.distractorOrientationsFull = repmat(task.distractorOrientations,task.numOrientationBins,length(task.cues)*task.trialScalar)';
 
 task.numBlocks = 6;
 task.numTrialsBlock=(size(task.memoryOrientations,1)*size(task.memoryOrientations,2))*2/task.numBlocks; %the extra 2 is to balance the 50 trials
@@ -129,19 +137,19 @@ end
 
 %% Time settings
 
-time.cue = .8; 
-time.ISI = .5; 
-time.MemoryGabor = .8; % Time to present Gabor
-time.DelayLength = 6;
-time.DelayDist = 1.5;
-time.Distractor = time.DelayLength-time.DelayDist*2;
+time.cue = .5; 
+time.ISI = .2; 
+time.MemoryGabor = .5; % Time to present Gabor
+time.DelayLength = 3;
+time.DelayDist = time.DelayLength/4;
+time.Distractor = time.DelayLength/2;
 time.DistOn = 0.25;
 time.DistOff = 0.25; 
 time.DistFreq = 1/time.DistOn;
 time.DistPrezT = time.Distractor*time.DistFreq/2;
-time.scannerWaitTime = 3;
+time.scannerWaitTime = 2;
 time.answer = 5;
-time.ITI = 4;
+time.ITI = 1.5;
 %% Gabor parameters
 
 stim.contrast = 0.5;
@@ -159,7 +167,7 @@ stim.phaseDistractor = reshape(stim.phaseDistractor, task.numTrialsBlock/2,time.
 % probe, iti. 
 % per TRIAL
 stim.numPresentations = 6+size(stim.phaseDistractor,2)*2;
-stim.initialProbePos = [randi([5,25],task.numTrialsBlock,1),randi([35,55],task.numTrialsBlock,1),randi([65,85],task.numTrialsBlock,1),randi([95,115],task.numTrialsBlock,1),randi([125,155],task.numTrialsBlock,1),randi([165,185],task.numTrialsBlock,1)];
+stim.initialProbePos = randi([0,179],task.numTrialsBlock*task.numBlocks,1);
 stim.initialProbePos = Shuffle(stim.initialProbePos(:));
 stim.initialProbePos = reshape(stim.initialProbePos,[],task.numBlocks);
 
