@@ -3,10 +3,10 @@ subjID = input('Enter subject ID: \n','s'); %e.g. 001 002 010 099
 WM_run = input('Enter run number: \n'); %e.g. 1 2 3
 
 environment = 'behav';
-version = 'V1';
+version = 'V2';
 
 fileID = [subjID,'_',num2str(WM_run)];
-
+ 
 %% Subj ID & Paths
 
 fileName = [fileID, '_WMdistAnt_',version];
@@ -69,7 +69,7 @@ end
 % HideCursor(window);
 
 [window, rect] = Screen('OpenWindow',whichScreen);
-%%%%%HideCursor(window);
+HideCursor(window);
 
 %% Stimulus Size Calculation:
 
@@ -91,9 +91,9 @@ end
 task.cues = [100, 0, 50];
 %task.cuesColor = [{'blue'},{'orange'},{'green'}];
 %task.cuesColorRGB = {[0, 0, 255] [255,165,0], [0,128,0]};
-task.distractorOrientations = [30, 15, 5, -5, -15, -30];
+task.distractorOrientations = [75,60,45,30,-30,-45,-60,-75];
 task.numUniqueTrials = length(task.cues)*length(task.distractorOrientations); 
-task.trialScalar = 4;
+task.trialScalar = 1;
 
 
 task.numUniqueTrials = task.numUniqueTrials*task.trialScalar; %increase num of trials
@@ -103,8 +103,11 @@ task.memoryOrientations = [randi([5,35],task.numUniqueTrials,1),randi([36,65],ta
 
 task.cuesFull = repelem(task.cues,task.numOrientationBins,length(task.distractorOrientations)*task.trialScalar)';
 task.distractorOrientationsFull = repmat(task.distractorOrientations,task.numOrientationBins,length(task.cues)*task.trialScalar)';
+task.distractorShift = randi([-5,5],size(task.distractorOrientationsFull));
 
-task.numBlocks = 6;
+task.distractorOrientationsFull = task.distractorOrientationsFull+task.distractorShift;
+
+task.numBlocks = length(task.distractorOrientations);
 task.numTrialsBlock=(size(task.memoryOrientations,1)*size(task.memoryOrientations,2))*2/task.numBlocks; %the extra 2 is to balance the 50 trials
 
 task.trialMatrix = [task.memoryOrientations(:),task.cuesFull(:),task.distractorOrientationsFull(:)];
@@ -137,19 +140,23 @@ end
 
 %% Time settings
 
-time.cue = .5; 
+time.cue = 1.8; 
 time.ISI = .2; 
 time.MemoryGabor = .5; % Time to present Gabor
-time.DelayLength = 3;
+time.DelayLength = 6;
 time.DelayDist = time.DelayLength/4;
 time.Distractor = time.DelayLength/2;
-time.DistOn = 0.25;
-time.DistOff = 0.25; 
+time.DistOn = 0.1875;
+time.DistOff = 0.1875; 
 time.DistFreq = 1/time.DistOn;
 time.DistPrezT = time.Distractor*time.DistFreq/2;
 time.scannerWaitTime = 2;
 time.answer = 5;
 time.ITI = 1.5;
+time.totalTrial = time.cue+time.ISI+time.MemoryGabor+time.DelayLength+time.answer+time.ITI;
+time.totalRun = time.totalTrial*size(task.trialMatrixFinal,1);
+time.totalRunMin = time.totalRun/60;
+time.totalRunsMin = time.totalRunMin*task.numBlocks;
 %% Gabor parameters
 
 stim.contrast = 0.5;
@@ -274,7 +281,7 @@ Screen('PreloadTextures',window,probeTex);
 %% Wait for mouse click to begin
 clicks = 0;
 Screen('FillRect',window,background);
-instructions = ['Instructions row 1!\n\nInstructions row two\n\nRun length: X minutes\n\n'];
+instructions = ['Instructions row 1!\n\nInstructions row two\n\nRun length: ',num2str(time.totalRunMin),' minutes\n\n'];
 Screen('DrawText',window,'[to Experimenter] waiting for mouse click...', 100, 100);
 DrawFormattedText(window, instructions, 'center', 'center');
 Screen('Flip',window);

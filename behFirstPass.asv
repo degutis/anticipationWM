@@ -38,14 +38,13 @@ unique(data.error(data.Trial_type==0)))
 f = fit(x.',y.','gauss2')
 
 
-[p,tbl,stats] = anova1([abs(data.error(data.Trial_type==0));abs(data.error(data.Trial_type==50));abs(data.error(data.Trial_type==100))],[repmat({'zero'},length(abs(data.error(data.Trial_type==0))),1);repmat({'fifty'},length(abs(data.error(data.Trial_type==50))),1);repmat({'hundered'},length(abs(data.error(data.Trial_type==100))),1)])
+[p,tbl,stats] = anova1([abs(data.error(data.Trial_type==0));abs(data.error(data.Trial_type==50));abs(data.error(data.Trial_type==100))],[repmat({'zero'},length(abs(data.error(data.Trial_type==0)),1);repmat({'fifty'},length(abs(data.error(data.Trial_type==50))),1);repmat({'hundered'},length(abs(data.error(data.Trial_type==100))),1)]
 
 
 %% Distractor vs no distractor
 
 fig2 = figure(4);
-violinplot(struct('noDist',abs(data.error(data.DistractorOr==0)),'Dist',abs(data.error(data.DistractorOr~=0))))
-
+violinplot([abs(data.error(data.DistractorOr==0)),abs(data.error(data.DistractorOr~=0))],{'No Distractor','Distractor'})
 
 [h2,p2,ci2,stats2]=ttest2(abs(data.error(data.DistractorOr==0)),abs(data.error(data.DistractorOr~=0)));
 
