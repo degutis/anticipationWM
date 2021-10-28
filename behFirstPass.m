@@ -15,9 +15,8 @@ fig = figure(1);
 violinplot([abs(data.error(data.Trial_type==0)),abs(data.error(data.Trial_type==50)),abs(data.error(data.Trial_type==100))],{'0%','50%','100%'})
 
 
-fig2 = figure(2);
 
-count(data.error(data.Trial_type==0))
+%count(data.error(data.Trial_type==0))
 
 
 unique0 = unique(data.error(data.Trial_type==0));
@@ -26,16 +25,16 @@ unique0 = unique0(~isnan(unique0));
 
 [a,b]=hist(data.error(data.Trial_type==0),unique0)
 
-bar(b,a)
+%bar(b,a)
 
-f=fit(b,a','gauss')
-plot(f,b',a)
-
-
-unique(data.error(data.Trial_type==0)))
+%f=fit(b,a','gauss')
+%plot(f,b',a)
 
 
-f = fit(x.',y.','gauss2')
+%unique(data.error(data.Trial_type==0)))
+
+
+%f = fit(x.',y.','gauss2')
 
 
 [p,tbl,stats] = anova1([abs(data.error(data.Trial_type==0)),abs(data.error(data.Trial_type==50)),abs(data.error(data.Trial_type==100))])
