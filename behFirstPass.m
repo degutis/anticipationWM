@@ -43,6 +43,7 @@ title(['No Distractor trials: 50% vs 0% blocks. Pval: ',num2str(pval)])
 ylim([0 60])
 subplot(1,2,2)
 violinplot(struct('Dist50',abs(data.error(data.DistractorOr~=0 & data.Trial_type==50)),'Dist100',abs(data.error(data.Trial_type==100))))
+ylim([0 60])
 [~,pval,~]=ttest2(abs(data.error(data.DistractorOr~=0 & data.Trial_type==50)),abs(data.error(data.Trial_type==100)));
 title(['Distractor trials: 50% vs 100% blocks. Pval: ',num2str(pval)])
 
